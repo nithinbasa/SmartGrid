@@ -1,0 +1,27 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "sensors": {
+      ".read": "auth != null",
+      "current": {
+        ".write": "auth != null"
+      },
+      "historical": {
+        ".write": "auth != null"
+      }
+    },
+    "controls": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "alerts": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "logs": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}
